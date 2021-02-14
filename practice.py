@@ -258,7 +258,8 @@
 # hindi_word = dic1.keys()
 # print(hindi_word)
 # user_input = input("Enter the word form list :")
-# print("The meaning of your word is :" , dic1[user_input])
+# # print(user_input)
+# print("The meaning of your word is :" , dic1[user_input.capitalize()])
 
 
 
