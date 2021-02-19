@@ -513,6 +513,10 @@
 #         return result
 # print(square)
 
+
+
+
+
 # class Emp:
 #     company = "YouTube"
 #     def getSalary(self):
@@ -520,6 +524,27 @@
 # yog = Emp()
 # # yog.getSalary()
 # Emp.getSalary(yog)
+
+
+
+
+# class emp:
+#     company = "Google"
+
+
+#     def getsalary(self):
+#         print(f"salary of this empoloyee is {self.salary}")
+    
+
+
+    # @staticmethod  #To remove self parameter  This is also a decorator to make as a static method
+#     def greet():
+#         print("Good Morning,Sir")
+
+# yogesh = emp()
+# yogesh.salary = "100K"
+# yogesh.greet()
+# yogesh.getsalary()
 
 
 
