@@ -12,23 +12,35 @@ cur = connetion.cursor()
 
 # create table
 # cur.execute("""CREATE TABLE yogeshDB(first_name text,lastname text, email text)""")
+cur.execute("INSERT INTO yogeshDB values('yogesh','singh','singh@gmail.com')")
+cur.execute("INSERT INTO yogeshDB values('mahesh','yadav','mahesh@gmail.com')")
+cur.execute("INSERT INTO yogeshDB values('visahl','varma','vishal@gmail.com')")
+cur.execute("INSERT INTO yogeshDB values('manish','khatri','manish@gmail.com')")
 
 
-# cur.execute("INSERT INTO yogeshDB values('yogesh','singh','singh@gmail.com')")
-# cur.execute("INSERT INTO yogeshDB values('mahesh','yadav','mahesh@gmail.com')")
-# cur.execute("INSERT INTO yogeshDB values('visahl','varma','vishal@gmail.com')")
-# cur.execute("INSERT INTO yogeshDB values('manish','khatri','manish@gmail.com')")
+# my_list = [('dsfsd','dff','reg@gmail.com'),
+#            ('gre','gdb','dfsg@gmail.com'),
+#            ('dsgh','gss','njr@gmail.com'),
+#            ('ggre','ge','mgdb@gmail.com'),
+#            ('fsere','hffgnb','dfh@gmail.com'),
+#            ('hkg','koth','gjs@gmail.com')]
+# cur.executemany("INSERT INTO yogeshDB values(?,?,?)",my_list)
+# print("Database created...") 
+
+# cur.execute("SELECT * FROM yogeshDB")
 
 
-my_list = [('dsfsd','dff','reg@gmail.com'),
-           ('gre','gdb','dfsg@gmail.com'),
-           ('dsgh','gss','njr@gmail.com'),
-           ('ggre','ge','mgdb@gmail.com'),
-           ('fsere','hffgnb','dfh@gmail.com'),
-           ('hkg','koth','gjs@gmail.com'),
-]
-cur.executemany("INSERT INTO yogeshDB values(?,?,?)",my_list)
-print("Database created...")
+# to print data of table we use fetch and for only one item then use 
+# fetchone() function 
+# for all data use fetchall()
+#  also use fetchmany()
+
+
+print(cur.fetchall())
+print("\n")
+print(cur.fetchmany(3))
+print("\n")
+print(cur.fetchone())
 
 # close database
 # it is must

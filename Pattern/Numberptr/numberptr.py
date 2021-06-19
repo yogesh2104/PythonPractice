@@ -114,8 +114,8 @@ for x in range(5,0,-1):
 
 
 """[print]
-    1 2 3 4 5
-    6 7 8 9 10
+    1   2  3  4  5
+    6   7  8  9 10
     11 12 13 14 15
     16 17 18 19 20
     21 22 23 24 25
@@ -126,4 +126,84 @@ for x in range(1,n+1):
     for y in range(1,n+1):
         print("{:2d}".format(k),end="")
         k+=1
+    print()
+
+
+    
+"""[print]
+    1  3  5  7  9
+    11 13 15 17 19
+    21 23 25 27 29
+    31 33 35 37 39
+    41 43 45 47 49
+    
+"""
+n=5
+k=1
+for x in range(1,n+1):
+    for y in range(1,n+1):
+        print("{:2d}".format(k),end="")
+        k+=2
+    print()
+
+
+"""[print]
+2  4  6  8  10
+12 14 16 18 20
+22 24 26 28 30
+32 34 36 38 40
+42 44 46 48 50
+"""
+n=6
+k=2
+for x in range(2,n+1):
+    for y in range(2,n+1):
+        print("{:2d}".format(k),end="")
+        k+=2
+    print()
+
+
+
+
+"""[print]
+ 1 2 3 4 5
+ 2 4 6 810
+ 3 6 91215
+ 4 8121620
+ 510152025
+"""
+n=5
+for x in range(1,n+1):
+    for y in range(1,n+1):
+        print("{:2d}".format(x*y),end="")
+    print()
+
+
+
+"""[print]
+1 12 13 1
+1 22 23 2
+1 32 33 3
+1 42 43 4
+1 52 53 5
+"""
+for x in range(1,6):
+    for y in range(1,4):
+        print(f"{y} {x}",end="")
+    print()
+
+
+
+
+"""[print]
+
+    111213
+    212223
+    313233
+    414243
+    515253
+"""
+for x in range(1,6):
+    for y in range(1,4):
+        print(f"{x}{y}",end="")
     print()
