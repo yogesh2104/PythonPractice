@@ -208,5 +208,22 @@ for x in range(1,6):
         print(f"{x}{y}",end="")
     print()
 
+
+
     """[print 14]
+    
+    1 6  11 16 21
+    2 7  12 17 22
+    3 8  13 18 23
+    4 9  14 19 24
+    5 10 15 20 25
     """
+    n=5
+    for x in range(1,n+1):
+        p=x
+        for y in range(1,n+1):
+            print("{:2d}".format(p),end="")
+            p+=n
+        print()
+
+
