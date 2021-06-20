@@ -1,5 +1,5 @@
 '''
-[question]
+[question1]
 3
 3 2
 3 2 1
@@ -17,7 +17,7 @@ for x in range(size,-(size+1),-1):
 
 
 '''
-[print]
+[print 2]
 3
 23
 123
@@ -36,7 +36,7 @@ for x in range(size,-(size+1),-1):
 
 
 
-'''[Question is]
+'''[Question 3 is]
 D
 DC
 DCB
@@ -54,7 +54,7 @@ for x in range(size,-(size+1),-1):
 
 
 """
-[print]
+[print 4]
 11111
 22222
 33333
@@ -69,7 +69,7 @@ for x in range(1,6):
 
 
 
-"""[print]
+"""[print 5]
     12345
     12345
     12345
@@ -84,7 +84,7 @@ for x in range(1,6):
 
 
 
-"""[print]
+"""[print 6]
 
 55555
 44444
@@ -100,7 +100,7 @@ for x in range(5,0,-1):
 
 
 
-"""[print]
+"""[print 7]
     54321
     54321
     54321
@@ -113,7 +113,7 @@ for x in range(5,0,-1):
     print()
 
 
-"""[print]
+"""[print 8]
     1   2  3  4  5
     6   7  8  9 10
     11 12 13 14 15
@@ -130,7 +130,7 @@ for x in range(1,n+1):
 
 
     
-"""[print]
+"""[print 9]
     1  3  5  7  9
     11 13 15 17 19
     21 23 25 27 29
@@ -147,7 +147,7 @@ for x in range(1,n+1):
     print()
 
 
-"""[print]
+"""[print 10]
 2  4  6  8  10
 12 14 16 18 20
 22 24 26 28 30
@@ -165,7 +165,7 @@ for x in range(2,n+1):
 
 
 
-"""[print]
+"""[print 11]
  1 2 3 4 5
  2 4 6 810
  3 6 91215
@@ -180,7 +180,7 @@ for x in range(1,n+1):
 
 
 
-"""[print]
+"""[print 12]
 1 12 13 1
 1 22 23 2
 1 32 33 3
@@ -195,7 +195,7 @@ for x in range(1,6):
 
 
 
-"""[print]
+"""[print 13]
 
     111213
     212223
@@ -207,3 +207,6 @@ for x in range(1,6):
     for y in range(1,4):
         print(f"{x}{y}",end="")
     print()
+
+    """[print 14]
+    """
