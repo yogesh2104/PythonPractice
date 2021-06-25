@@ -8,6 +8,8 @@ data2 = [82,80,61,53,47,39,22,52,78,12,30,16,5,78,90]
 print(np.sort(data))
 print()
 
+# output   [ 3  5  8 11 12 22 32 46 55 56 67 76 78 89 90]
+
 
 
 """greater_equal()it compare two list and return true or False.if the number is greater or 
@@ -16,11 +18,17 @@ print()
 print(np.greater_equal(data,data2))
 print()
 
+# output [False  True  True  True False False  True  True  True  True  True False True False  True]
+
+
+
 
 """greater() it compare two list and return true or False.if the number is greater then return ##!True 
  else retuen ##! False"""
 print(np.greater(data, data2))
 print()
+
+# output [False  True  True  True False False False  True False False  True False False False False]
 
 """less_equal() it compare two list and return true or False.if the number is less or equal then
 return ##! True 
@@ -28,8 +36,12 @@ else retuen ##! False"""
 print(np.less_equal(data, data2))
 print()
 
+# output [ True False False False  True  True  True False  True  True False  True True  True  True]
+
 
 
 """less() it compare two list and return true or False.if the number is less then return ##!True 
 else retuen ##! False"""
 print(np.less(data,data2))
+
+# output [ True False False False  True  True False False False False False  True False  True False]
