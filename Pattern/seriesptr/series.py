@@ -32,3 +32,12 @@ for x in range(1,n+1):
     a =a*r
 
 
+# odd No. Series
+    """[print]
+    1,3,5,7,9,
+    """
+n = 5 
+for x in range(1,n+1):
+    print(""+str(2*x-1),end=",")
+
+    
